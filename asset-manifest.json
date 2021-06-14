@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/faceboot/static/css/main.8e806213.chunk.css",
+    "main.js": "/faceboot/static/js/main.f95eda86.chunk.js",
+    "main.js.map": "/faceboot/static/js/main.f95eda86.chunk.js.map",
+    "runtime-main.js": "/faceboot/static/js/runtime-main.a1e6c62c.js",
+    "runtime-main.js.map": "/faceboot/static/js/runtime-main.a1e6c62c.js.map",
+    "static/js/2.e2301d45.chunk.js": "/faceboot/static/js/2.e2301d45.chunk.js",
+    "static/js/2.e2301d45.chunk.js.map": "/faceboot/static/js/2.e2301d45.chunk.js.map",
+    "static/js/3.2d76d21b.chunk.js": "/faceboot/static/js/3.2d76d21b.chunk.js",
+    "static/js/3.2d76d21b.chunk.js.map": "/faceboot/static/js/3.2d76d21b.chunk.js.map",
+    "index.html": "/faceboot/index.html",
+    "static/css/main.8e806213.chunk.css.map": "/faceboot/static/css/main.8e806213.chunk.css.map",
+    "static/js/2.e2301d45.chunk.js.LICENSE.txt": "/faceboot/static/js/2.e2301d45.chunk.js.LICENSE.txt",
+    "static/media/dchota.8352b329.jpeg": "/faceboot/static/media/dchota.8352b329.jpeg",
+    "static/media/logo_bg.71ffeb7a.png": "/faceboot/static/media/logo_bg.71ffeb7a.png",
+    "static/media/name_logo.6fba4b76.png": "/faceboot/static/media/name_logo.6fba4b76.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a1e6c62c.js",
+    "static/js/2.e2301d45.chunk.js",
+    "static/css/main.8e806213.chunk.css",
+    "static/js/main.f95eda86.chunk.js"
+  ]
+}
