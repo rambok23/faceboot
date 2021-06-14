@@ -1,7 +1,6 @@
 import { Avatar } from "@material-ui/core";
 import React from "react";
 import "./Story.css";
-import StoryReel from "../StoryReel/StoryReel";
 
 function Story({ image, profileSrc, title }) {
     return (
@@ -9,7 +8,6 @@ function Story({ image, profileSrc, title }) {
     className="story">
         <Avatar className="story__avatar" src={profileSrc} />
         <h4> {title} </h4>     
-        <StoryReel />
     </div>
     );
 }

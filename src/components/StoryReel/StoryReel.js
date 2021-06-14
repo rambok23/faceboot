@@ -19,16 +19,7 @@ import Rutvik from "../../images/rutvik.jpeg";
 import Ruchota from "../../images/ruchota.jpeg";
 
 
-class StoryReel extends React.Component {
-
-    state = { isOpen: false };
-
-  handleShowDialog = () => {
-    this.setState({ isOpen: !this.state.isOpen });
-    console.log("clicked");
-  };
-
-
+class StoryReel extends Component {
     render(){
     return (
         <div className="storyReel">
@@ -36,30 +27,7 @@ class StoryReel extends React.Component {
             image={Rchota}
             profileSrc={Rohit}
             title="Rohit"
-            className="small"
-            onClick={this.handleShowDialog}
             />
-
-        {this.state.isOpen && (
-         
-		 <dialog
-            className="dialog"
-            style={{ position: "absolute" }}
-            open
-            onClick={this.handleShowDialog}
-          >
-            <Story
-            image={Rchota}
-            profileSrc={Rohit}
-            title="Rohit"
-            onClick={this.handleShowDialog}
-            /> 
-          </dialog>
-        
-		)}
-
-
-
 
             <Story
             image={Parth}
@@ -84,8 +52,9 @@ class StoryReel extends React.Component {
             profileSrc={Rutvik}
             title="Rutvik"
             />
-        </div> 
+
+        </div>
     );
-    }
+}
 }
 export default StoryReel;

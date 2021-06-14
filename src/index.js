@@ -6,11 +6,14 @@ import * as serviceWorker from "./serviceworker";
 import reportWebVitals from "./reportWebVitals";
 import { StateProvider } from "./StateProvider";
 import reducer, { initialState } from "./reducer";
+import { Provider } from '@lyket/react';
 
 ReactDOM.render(
   <React.StrictMode>
     <StateProvider initialState={initialState} reducer={reducer}>
+    <Provider apiKey="823e446df711c6ca4b168aba00b031">
       <App />
+      </Provider>
     </StateProvider>
   </React.StrictMode>,
   document.getElementById("root")

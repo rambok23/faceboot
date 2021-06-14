@@ -40,6 +40,8 @@ function Sidebar() {
             <SidebarRow Icon={ChatIcon} title="Messenger" />
             <Link to="/">Home</Link>
             <Link to="/Message">Messenger</Link>
+            <Link to="/cart">Marketplace</Link>
+
             <SidebarRow Icon={StorefrontIcon} title="Marketplace" />
             <SidebarRow Icon={VideoLibraryIcon} title="Videos" />
             <SidebarRow Icon={ExpandMoreOutlined}

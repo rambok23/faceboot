@@ -1,38 +1,23 @@
 import { Avatar } from "@material-ui/core";
-import * as React from "react";
-import { Component, useState } from "react";
+import React, { Component, useState } from "react";
 import ThumbUpIcon from "@material-ui/icons/ThumbUp";
 import ChatBubbleOutlineIcon from "@material-ui/icons/ChatBubbleOutline";
 import AccountCircleIcon from "@material-ui/icons/AccountCircle";
 import NearMeIcon from '@material-ui/icons/NearMe';
 import { ExpandMoreOutlined } from "@material-ui/icons";
 import "./Post.css";
+import { LikeButton } from '@lyket/react';
+
 import {
     BrowserRouter as Router,
     Switch,
     Route,
     Link
   } from "react-router-dom";
-  import c from "classnames";
 
-
-
-function Post({ profilePic, image, username, timestamp, message}) {
-     // Set the initial count state to zero, 0
-     const [count, setCount] = useState(0);
-
-     // Create handleIncrement event handler
-     const handleIncrement = () => {
-       setCount(prevCount => prevCount + 1);
-     };
-   
-     //Create handleDecrement event handler
-     const handleDecrement = () => {
-       setCount(prevCount => prevCount - 1);
-     };
+function Post({ profilePic, image, username, timestamp, message, title='Like', content}) {
 
     return (
-
     <div className="post">
         <div className="post__top">
             <Avatar src={profilePic}
@@ -52,15 +37,20 @@ function Post({ profilePic, image, username, timestamp, message}) {
         </div>
         
         <div className="post__options">
+           
             <div className="post__option">
-                <ThumbUpIcon />
+                
+                <LikeButton
+                    id="this-is-faceboot-like"
+                    namespace="post"
+                    component={LikeButton.templates.Twitter}
+                    //onPress={}
 
-                <button onClick={handleIncrement}>Like</button>
-                <p> {count} </p>
-                <p>Like</p>
-
-                <button onClick={handleDecrement}>Dislike</button>
-
+                />
+                {title}
+                {content}
+                {/*<ThumbUpIcon />
+                <p>Like</p>*/}
             </div>
 
             <div className="post__option">
