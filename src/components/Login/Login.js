@@ -2,6 +2,7 @@ import { Button } from "@material-ui/core";
 import React from "react";
 import "./Login.css";
 import { auth, provider } from "../../firebase";
+import Bubbles from '../../bubble';
 
 import { actionTypes } from "../../reducer";
 import { useStateValue } from "../../StateProvider";
@@ -26,6 +27,8 @@ function Login() {
     return (
 
      <div className="login">
+         <Bubbles />
+
         <div className="login__logo">
         
         <img
@@ -47,3 +50,11 @@ function Login() {
 }
 
 export default Login;
+
+
+
+
+
+
+
+  

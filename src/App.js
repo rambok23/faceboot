@@ -207,7 +207,7 @@ const sendMessage = (event) => {
                 />
             </Route>
 
-<Route exact path="/statewise">
+            <Route exact path="/statewise">
               <Statewise />
             </Route>
 

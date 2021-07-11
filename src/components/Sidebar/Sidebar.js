@@ -81,12 +81,7 @@ export default Sidebar; */
 
 
 
-
-
-
-
 import React, { useState } from "react";
-
 import {
   MessageOutlined,
   HomeOutlined,
@@ -114,7 +109,7 @@ const LeftSider = () => {
         <span className="font-italic">FaceBoot</span>
       </div>
 
-      <Menu theme="light" mode="inline" style={{ width: 256 }}
+      <Menu theme="light" mode="inline" style={{ width: 200 }}
         defaultSelectedKeys={['1']}
         defaultOpenKeys={['sub1']}  >
         <Menu.Item key="1" icon={<HomeOutlined />}>
