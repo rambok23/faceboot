@@ -6,7 +6,11 @@ import Login from "./components/Login/Login";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Feed from "./components/Feed/Feed";
 import Widgets from "./components/Widgets/Widgets";
+import State from "./components/statewise/state";
+import Statewise from "./components/stateWiseData/statewise";
+
 import { useStateValue } from "./StateProvider";
+
 import Logo from "./images/logo_bg.png";
 import {
   BrowserRouter as Router,
@@ -30,7 +34,6 @@ import SendIcon from "@material-ui/icons/Send";
 import { commerce } from './lib/commerce';
 import { Products, Navbar, Cart, Checkout } from './components';
 //import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-
 
 const App = () => {
   const [{ user }, dispatch] = useStateValue();
@@ -204,7 +207,9 @@ const sendMessage = (event) => {
                 />
             </Route>
 
-
+<Route exact path="/statewise">
+              <Statewise />
+            </Route>
 
           <Route exact path="/Message">
           

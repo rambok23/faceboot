@@ -20,6 +20,7 @@ import Ruchota from "../../images/ruchota.jpeg";
 
 
 class StoryReel extends Component {
+
     render(){
     return (
         <div className="storyReel">
@@ -28,6 +29,7 @@ class StoryReel extends Component {
             profileSrc={Rohit}
             title="Rohit"
             />
+          
 
             <Story
             image={Parth}
