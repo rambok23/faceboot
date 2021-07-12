@@ -27,10 +27,9 @@ function Login() {
     return (
 
      <div className="login">
-         <Bubbles />
-
         <div className="login__logo">
-        
+        <Bubbles />
+
         <img
         src={Logo_Design}
         alt="FACBOOT LOGO"
@@ -50,11 +49,3 @@ function Login() {
 }
 
 export default Login;
-
-
-
-
-
-
-
-  
