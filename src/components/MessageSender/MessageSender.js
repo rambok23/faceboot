@@ -5,7 +5,7 @@ import VideocamIcon from "@material-ui/icons/Videocam";
 import PhotoLibraryIcon from "@material-ui/icons/PhotoLibrary";
 import InsertEmoticonIcon from "@material-ui/icons/InsertEmoticon";
 import { useStateValue } from "../../StateProvider";
-
+import Upload from "./uploadfile";
 import db from "../../firebase";
 import firebase from "firebase";
 
@@ -30,7 +30,6 @@ function MessageSender() {
     setInput("");
     setImageUrl("");
     };
-
 
     return (
     <div className="messageSender">
@@ -59,10 +58,13 @@ function MessageSender() {
             <div className="messageSender__option">
                 <VideocamIcon style={{ color: "red" }} />
                 <h3> Live Video </h3>
+
+
             </div>
 
             <div className="messageSender__option">
                 <PhotoLibraryIcon style={{ color: "green" }} />
+                <Upload />
                 <h3> Photo/Video </h3>
             </div>
 

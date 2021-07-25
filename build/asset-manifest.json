@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/faceboot/static/css/main.60f063a6.chunk.css",
-    "main.js": "/faceboot/static/js/main.6342d708.chunk.js",
-    "main.js.map": "/faceboot/static/js/main.6342d708.chunk.js.map",
+    "main.css": "/faceboot/static/css/main.4012a47b.chunk.css",
+    "main.js": "/faceboot/static/js/main.15e5beaf.chunk.js",
+    "main.js.map": "/faceboot/static/js/main.15e5beaf.chunk.js.map",
     "runtime-main.js": "/faceboot/static/js/runtime-main.734e713c.js",
     "runtime-main.js.map": "/faceboot/static/js/runtime-main.734e713c.js.map",
     "static/css/2.00bb4513.chunk.css": "/faceboot/static/css/2.00bb4513.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.1d401a83.chunk.js.map": "/faceboot/static/js/3.1d401a83.chunk.js.map",
     "index.html": "/faceboot/index.html",
     "static/css/2.00bb4513.chunk.css.map": "/faceboot/static/css/2.00bb4513.chunk.css.map",
-    "static/css/main.60f063a6.chunk.css.map": "/faceboot/static/css/main.60f063a6.chunk.css.map",
+    "static/css/main.4012a47b.chunk.css.map": "/faceboot/static/css/main.4012a47b.chunk.css.map",
     "static/js/2.3d252136.chunk.js.LICENSE.txt": "/faceboot/static/js/2.3d252136.chunk.js.LICENSE.txt",
     "static/media/dchota.8352b329.jpeg": "/faceboot/static/media/dchota.8352b329.jpeg",
     "static/media/logo_bg.71ffeb7a.png": "/faceboot/static/media/logo_bg.71ffeb7a.png",
@@ -22,7 +22,7 @@
     "static/js/runtime-main.734e713c.js",
     "static/css/2.00bb4513.chunk.css",
     "static/js/2.3d252136.chunk.js",
-    "static/css/main.60f063a6.chunk.css",
-    "static/js/main.6342d708.chunk.js"
+    "static/css/main.4012a47b.chunk.css",
+    "static/js/main.15e5beaf.chunk.js"
   ]
 }

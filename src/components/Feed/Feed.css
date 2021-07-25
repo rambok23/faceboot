@@ -1,6 +1,7 @@
 .feed {
     flex: 1;
-    padding: 30px 150px;
+    padding: 30px 5px;
+    /*padding: 30px 100px; IF SCREEN MARGIN ISSUE COMES */
     display: flex;
     flex-direction: column;
     justify-content: center;
