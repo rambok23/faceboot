@@ -67,7 +67,8 @@ function Post({ profilePic, image, username, timestamp, message, title='Like', c
                 <AccountCircleIcon />
                 <ExpandMoreOutlined />
             </div>
-        
+
+
         </div>
 
     </div>

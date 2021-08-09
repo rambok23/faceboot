@@ -23,8 +23,6 @@ import {
   } from "react-router-dom";
 
 
-
-
 function Header(){
     const [{ user }, dispatch] = useStateValue();
 
